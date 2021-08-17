@@ -112,7 +112,7 @@ public class AllTests {
 
     @Flaky
     @Feature(value = "RegistrationPage feature")
-    @Link(url = "https://www.saucedemo.com/")
+    @Link(name = "login Page link", url = "https://www.saucedemo.com/")
     @Severity(SeverityLevel.CRITICAL)
     @Description(value = "Checking the correctness of the calculation of the total amount of items in the cart and the total amount indicated on the site")
 
